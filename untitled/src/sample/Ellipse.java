@@ -1,4 +1,4 @@
 package sample;
 
-public class Ellipse  {
+public class Ellipse extends Shapes {
 }

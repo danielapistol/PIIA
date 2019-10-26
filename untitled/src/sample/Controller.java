@@ -32,21 +32,23 @@ public class Controller {
             private SplitPane splitPane;
 
 
+
+
+
+
     public void radioSelect(ActionEvent event){
 
         if(btnLine.isSelected()){
-            // gc.setLineWidth(5);
+           // gc.setLineWidth(5);
         }
         else
-        if(btnRectnagle.isSelected()){
+            if(btnRectnagle.isSelected()){
+
+            }
+            else if(btnEllipse.isSelected()){
 
         }
-        else if(btnEllipse.isSelected()){
 
-        }
-    }
-
-    public void addLine(ActionEvent event){
 
     }
 
@@ -67,8 +69,6 @@ public class Controller {
         btnRectnagle.setOnMouseClicked(event -> {
 
         });
-
-
 
     }
 }
